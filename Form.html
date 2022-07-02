@@ -1,15 +1,17 @@
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="money" name="money" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="data2">Data:</label><br>
+  <input type="text" id="money" name="money" value=""><br>
+  <label for="data2">Data 2:</label><br>
+  <input type="text" id="type" name="data2" value=""><br><br>
  <button onclick="myFunction()">Click me</button>
 </form> 
 <script>
 var data = document.getElementById('money').value;
+var data2 = document.getElementById('money').value;
 
 function myFunction() {
-  document.write("Hello World!");
+  document.write(data2);
+  document.write(data);
 }
 </script>
 
