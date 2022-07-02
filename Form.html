@@ -17,15 +17,10 @@ const data2 = document.getElementById('type').value;
 
 console.log(data)
 
-  document.write(
-	 "<h1>"
-  data
-  "
-  </h1> <h2>"
-  
-  data2
-  "
-  </h2>"
+document.getElementById("result").innerHTML = data
+document.getElementById("result2").innerHTML = data2
+
+  document.write(<span id = "result"><h1></h2></span><span id = "result2"><h2></h2></span>
   );
 ;
 
