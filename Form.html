@@ -2,16 +2,20 @@
   <label for="data2">Data:</label><br>
   <input type="text" id="money" name="money" value=""><br>
   <label for="data2">Data 2:</label><br>
+  </form>
+  <form>
+  <span>
   <input type="text" id="type" name="data2" value=""><br><br>
  <button onclick="myFunction()">Click me</button>
+ </span>
 </form> 
 <script>
 var data = document.getElementById('money').value;
-var data2 = document.getElementById('money').value;
+var data2 = document.getElementById('type').value;
 
 function myFunction() {
-  document.write(data2);
   document.write(data);
+  document.write(data2);
 }
 </script>
 
